@@ -198,6 +198,16 @@ a span.ti-twitter-alt {
 .tickets {
 	background-color: #fcd93b;
 }
+#devfest{
+   background-image: url('../img/home.png');
+   color: #fff;
+}
+#devfest .feature span{
+   color: #fcd93b;
+}
+#devfest .btn-red{
+       margin-top: 325px;
+}
 .tickets .price {
 	font-size: 4em;
 	color: #dd5138;
@@ -337,6 +347,14 @@ ul.footer-menu li a:hover {
     }
     #home .btn-lg{
           padding: 15px 12px;
+   }
+   #devfest .btn-red{
+          margin-top: 30px;
+              padding: 15px;
+   }
+   #devfest .feature h3{
+          font-size: 18px;
+
    }
 }
 
