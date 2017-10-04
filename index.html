@@ -7,11 +7,33 @@
   <meta name="description" content="Caravana DEVFEST Paraná 2017 Saindo de Foz do Iguaçu, Cascavel e Toledo">
 
   <title>Caravana DEVFEST Paraná 2017</title>
-
+  <meta property="og:title" content="Caravana DEVFEST Paraná 2017" />
+          <meta property="og:type" content="product" />
+          <meta property="og:image" content="img/caravana.png" />
+          <meta property="og:url" content="http://caravana.devfestpr.org/" />
+          <meta property="og:description" content="Caravana DEVFEST Paraná 2017 Saindo de Foz do Iguaçu, Cascavel e Toledo"
+                />
   <!-- Bootstrap -->
   <link rel="shortcut icon" sizes="32x32" href="img/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+<link rel="manifest" href="manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.css?v=2" rel="stylesheet">
   <link href="css/themify-icons.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -149,12 +171,20 @@
           <div class="col-md-4 col-sm-6">
             <h3>Pagamento facilitado</h3>
             <p><b>Cartão de crédito</b><br />O pagamento pode ser feito em até 10 vezes no cartão de crédito via pagseguro.</p>
-            <a href="#" >
-              <img src="img/pagar.png" />
-            </a>
-<br/><br/>
+
+            <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+  <!-- <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+
+  <input type="hidden" name="code" value="E7C025ACB0B04BA114562FBA98BB3E76" />
+  <input type="hidden" name="iot" value="button" />
+  <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/95x45-comprar.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+  </form> -->
+<a class="btn btn-lg btn-pagar" href="https://pag.ae/bcpD2kT" target="_blank"> Pague em até <strong>10 vezes</strong> com<br/>
+  <img src="img/pagar2.png" alt="Garanta sua passagem para o DevFest 2017 pagando com o pagseguro" />
+</a>
+
 <br/>
-            <p><b>Pagamento por depósito com 5% de desconto</b><br/>
+    <p><b>Pagamento por depósito ou boleto bancário com 5% de desconto</b><br/>
               Fale conosco para saber como comprar por depósito.
             </p>
           </div>
@@ -174,6 +204,8 @@
                   <div class="media-body">
                     <h4 class="media-heading">10-11-2017 </h4>
                     <h5>22:00 hrs Saída de Foz do Iguaçu</h5>
+                    <h5>23:00 hrs Parada para embarque em Cascavel</h5>
+                    <h5> Parada para embarque em Toledo</h5>
                   </div>
                 </div>
               </div>
